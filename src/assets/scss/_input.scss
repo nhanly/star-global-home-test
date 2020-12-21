@@ -1,0 +1,24 @@
+@import './variables';
+
+label {
+  margin-bottom: 5px;
+}
+
+.form-control {
+  font-family: $font-family;
+
+  max-width: 200px;
+  height: 25px;
+  line-height: 0.75;
+  
+  padding-left: 5px;
+  
+  border: 1px solid $grey;
+  border-radius: $border-radius-default;
+
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
